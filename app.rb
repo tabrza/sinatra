@@ -19,5 +19,6 @@ end
 
 
 get '/cat' do
+  @cat = %w[Amigo Oscar Viking].sample
   erb(:index)
 end
